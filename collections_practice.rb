@@ -9,3 +9,6 @@ end
 def sort_array_char_count(ary)
   ary.count 
 end 
+
+def swap_elements(ary)
+  
