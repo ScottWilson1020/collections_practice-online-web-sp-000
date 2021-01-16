@@ -6,9 +6,9 @@ def sort_array_desc(ary)
   ary.sort! { |a, b| b <=> a }
 end 
 
-def sort_array_char_count(ary)
-  ary.count 
-end 
+def sort_array_char_count(strings)
+  strings.sort {|left, right| left.length <=> right.length}
+end
 
 def swap_elements (array)
   array[1], array[2] = array[2], array[1]
